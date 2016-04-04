@@ -20,8 +20,3 @@ function bind_dollar
     commandline -i '$'
   end
 end
-
-function fishtory -d "fishtory"
-  bind ! bind_bang
-  bind '$' bind_dollar
-end
