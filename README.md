@@ -3,6 +3,8 @@
 #### fishtory
 > A plugin for [Oh My Fish][omf-link] / [fisherman][fisherman-link] / [fundle][fundle-link].
 
+Bash Style History Substitution (!! and !$)
+
 [![MIT License](https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square)](/LICENSE)
 [![Fish Shell Version](https://img.shields.io/badge/fish-v2.2.0-007EC7.svg?style=flat-square)](http://fishshell.com)
 [![Oh My Fish Framework](https://img.shields.io/badge/Oh%20My%20Fish-Framework-007EC7.svg?style=flat-square)](https://www.github.com/oh-my-fish/oh-my-fish)
@@ -18,7 +20,8 @@ $ omf install fishtory
 ## Usage
 
 You can use `!!` to insert the last command at cursor place, and `!$` to insert
-last command's first argument at cursors place.
+last command's first argument at cursors place. This package is just an automated
+way to install the [Bash Style History Substitution][bash-history]
 
 # License
 
@@ -31,5 +34,6 @@ last command's first argument at cursors place.
 [omf-link]:       https://www.github.com/oh-my-fish/oh-my-fish
 [fisherman-link]: http://fisherman.sh
 [fundle-link]:    https://github.com/tuvistavie/fundle
+[bash-history]:   https://github.com/fish-shell/fish-shell/wiki/Bash-Style-History-Substitution-(!!-and-!$)
 
 [license-badge]:  https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square
