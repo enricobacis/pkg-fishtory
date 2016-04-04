@@ -9,7 +9,10 @@
 
 <br/>
 
-Bash Style History Substitution (!! and !$)
+### Bash Style History Substitution (!! and !$)
+
+This package is just an automated way to install the
+[Bash Style History Substitution][bash-history] (`!!` and `!$`)
 
 ## Install
 
@@ -19,9 +22,10 @@ $ omf install fishtory
 
 ## Usage
 
-You can use `!!` to insert the last command at cursor place, and `!$` to insert
-last command's first argument at cursors place. This package is just an automated
-way to install the [Bash Style History Substitution][bash-history]
+This plugin defines two shorthands very common in bash:
+
+* `!!` inserts the last command at cursor place
+* `!$` inserts last command's first argument at cursors place.
 
 # License
 
